@@ -36,4 +36,4 @@ RUN pyenv local pypy-6.0.0 && \
     pip install --upgrade setuptools pip tox && \
     pyenv local --unset
 
-RUN pyenv local 2.7.15 3.4.9 3.5.6 3.6.6 3.7 pypy-6.0.0
+RUN pyenv local 2.7.15 3.4.9 3.5.6 3.6.6 3.7.0 pypy-6.0.0
